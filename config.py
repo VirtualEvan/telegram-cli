@@ -31,4 +31,4 @@ def get_logs_dir():
 
 
 def get_chat_id():
-    return Config.get("master", "chat_id") or False
+    return Config.get("admin", "chat_id") or False
